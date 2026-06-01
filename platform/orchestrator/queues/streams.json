@@ -1,0 +1,10 @@
+{
+  "streams": [
+    "workflow.events",
+    "workflow.audit",
+    "workflow.retry",
+    "workflow.deadletter",
+    "workflow.memory",
+    "workflow.checkpoints"
+  ]
+}

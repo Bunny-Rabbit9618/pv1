@@ -1,0 +1,89 @@
+.
+├── SECURITY.md
+├── ai
+│   ├── execution
+│   ├── gateway
+│   ├── governance
+│   ├── memory
+│   ├── orchestrator
+│   ├── recovery
+│   └── specialists
+├── apps
+│   ├── admin-manager
+│   ├── client-portal
+│   └── crew-mobile
+├── ci-trigger-dev.md
+├── control-plane
+│   └── monitoring-service
+├── db
+│   ├── migrations
+│   ├── postgres
+│   ├── redis
+│   └── seeds
+├── docs
+│   ├── architecture
+│   ├── services
+│   └── topology
+├── ecosystem.config.cjs
+├── gateway
+│   ├── api-gateway
+│   └── envoy
+├── infra
+│   ├── cloudflare
+│   ├── kubernetes
+│   ├── railway
+│   └── terraform
+├── node_modules
+│   ├── express -> .pnpm/express@5.2.1/node_modules/express
+│   ├── ioredis -> .pnpm/ioredis@5.10.1/node_modules/ioredis
+│   └── pg -> .pnpm/pg@8.20.0/node_modules/pg
+├── observability
+│   ├── grafana
+│   ├── loki
+│   ├── otel
+│   ├── prometheus
+│   └── tempo
+├── package-lock.json
+├── package.json
+├── platform
+│   ├── contracts
+│   ├── observability
+│   ├── recovery
+│   ├── sdk
+│   ├── security
+│   ├── shared
+│   └── workers
+├── pnpm-lock.yaml
+├── pnpm-workspace.yaml
+├── recovery
+│   ├── artifacts
+│   ├── backups
+│   ├── redis
+│   ├── replay
+│   ├── restore
+│   ├── runbooks
+│   └── snapshots
+├── scripts
+│   ├── cosign-verify-blob.sh
+│   ├── dev-deploy.sh
+│   ├── install-cdxgen.sh
+│   ├── install-cosign.sh
+│   ├── onprem-deploy.sh
+│   ├── prod-drill.sh
+│   ├── prod-release-tag.sh
+│   ├── sbom-cyclonedx.sh
+│   ├── stage-promote.sh
+│   ├── stage-smoke.sh
+│   ├── supplychain-pack.sh
+│   ├── supplychain-run.sh
+│   ├── verify-artifact.sh
+│   └── verify-integrity.sh
+├── services
+│   ├── core-api
+│   ├── notifications
+│   ├── scheduling-routing
+│   └── user-auth
+├── start-all.sh
+└── tooling
+
+65 directories, 22 files

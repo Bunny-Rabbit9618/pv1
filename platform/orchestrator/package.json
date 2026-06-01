@@ -1,0 +1,17 @@
+{
+  "name": "bluedoor-orchestrator",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "engine/runtime.js",
+  "scripts": {
+    "start": "node engine/runtime.js",
+    "dev": "node --watch engine/runtime.js"
+  },
+  "dependencies": {
+    "ioredis": "^5.4.1",
+    "pg": "^8.13.1",
+    "uuid": "^11.0.3",
+    "dotenv": "^16.4.5",
+    "pino": "^9.4.0"
+  }
+}
