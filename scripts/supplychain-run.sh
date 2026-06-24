@@ -2,7 +2,7 @@
 set -euo pipefail
 
 OUT_DIR="${1:-dist}"
-ART="bluedoor_platform-src.tar.gz"
+ART="pv1_platform-src.tar.gz"
 SBOM="sbom.cdx.json"
 
 mkdir -p "$OUT_DIR"

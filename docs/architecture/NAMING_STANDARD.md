@@ -1,23 +1,23 @@
-# BlueDoor Naming Standard
+# PV1 Naming Standard
 
 ## AI Agents
 Pattern:
-bluedoor_<purpose>_agent
+pv1_<purpose>_agent
 
 Examples:
-- bluedoor_dispatch_agent
-- bluedoor_backup_agent
-- bluedoor_client_comms_agent
+- pv1_dispatch_agent
+- pv1_backup_agent
+- pv1_client_comms_agent
 
 ---
 
 ## AI Specialists
 Pattern:
-bluedoor_<purpose>_specialist
+pv1_<purpose>_specialist
 
 Examples:
-- bluedoor_routing_specialist
-- bluedoor_revenue_specialist
+- pv1_routing_specialist
+- pv1_revenue_specialist
 
 ---
 

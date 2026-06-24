@@ -1,5 +1,5 @@
-import { getFailed } from 'file:///data/data/com.termux/files/home/bluedoor_platform_final/packages/event-store/index.js';
-import { publish } from 'file:///data/data/com.termux/files/home/bluedoor_platform_final/packages/events/eventBus.js';
+import { getFailed } from 'file:///data/data/com.termux/files/home/pv1_platform_final/packages/event-store/index.js';
+import { publish } from 'file:///data/data/com.termux/files/home/pv1_platform_final/packages/events/eventBus.js';
 
 console.log('Replay worker started...');
 

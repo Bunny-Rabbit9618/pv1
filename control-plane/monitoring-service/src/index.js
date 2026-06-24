@@ -27,7 +27,7 @@ app.get('/health', async (req, res) => {
   }
 
   res.json({
-    system: 'bluedoor_control_plane',
+    system: 'pv1_control_plane',
     status: 'CHECK_COMPLETE',
     services: results
   });

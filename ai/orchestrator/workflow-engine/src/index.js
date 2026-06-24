@@ -3,9 +3,9 @@ import express from 'express';
 import {
   subscribe,
   publish
-} from 'file:///data/data/com.termux/files/home/bluedoor_platform_final/platform/shared/events/eventBus.js';
+} from 'file:///data/data/com.termux/files/home/pv1_platform_final/platform/shared/events/eventBus.js';
 
-import pool from 'file:///data/data/com.termux/files/home/bluedoor_platform_final/packages/postgres/client.js';
+import pool from 'file:///data/data/com.termux/files/home/pv1_platform_final/packages/postgres/client.js';
 
 const app = express();
 

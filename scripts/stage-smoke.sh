@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-: "${STAGE_API_BASE:=https://stage.api.bluedoorsolutionsllc.com}"
-: "${STAGE_CLIENT_BASE:=https://stage.client.bluedoorsolutionsllc.com}"
+: "${STAGE_API_BASE:=https://stage.api.pv1solutionsllc.com}"
+: "${STAGE_CLIENT_BASE:=https://stage.client.pv1solutionsllc.com}"
 
 echo "[stage-smoke] API base: $STAGE_API_BASE"
 echo "[stage-smoke] Client base: $STAGE_CLIENT_BASE"

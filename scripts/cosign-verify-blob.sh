@@ -9,7 +9,7 @@ if [[ -z "$BLOB" || -z "$SIG" ]]; then
   exit 1
 fi
 
-REPO="bluedoorsolutionshqtx-cmd/bluedoor_platform"
+REPO="pv1solutionshqtx-cmd/pv1_platform"
 ISSUER="https://token.actions.githubusercontent.com"
 
 echo "[cosign] verify-blob $BLOB"

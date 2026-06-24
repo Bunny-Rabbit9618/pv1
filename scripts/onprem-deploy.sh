@@ -27,8 +27,8 @@ if command -v pm2 >/dev/null 2>&1; then
   pm2 save
 else
   echo "[onprem-deploy] PM2 not found. Start services manually:"
-  echo "  pnpm --filter @bluedoor/core-api start"
-  echo "  pnpm --filter @bluedoor/client start"
+  echo "  pnpm --filter @pv1/core-api start"
+  echo "  pnpm --filter @pv1/client start"
 fi
 
 echo "[onprem-deploy] On-prem deployment script completed."

@@ -5,7 +5,7 @@ ART="${1:-}"
 SHA="${2:-}"
 
 if [[ -z "$ART" || -z "$SHA" ]]; then
-  echo "Usage: $0 dist/bluedoor_platform-src.tar.gz dist/bluedoor_platform-src.tar.gz.sha256"
+  echo "Usage: $0 dist/pv1_platform-src.tar.gz dist/pv1_platform-src.tar.gz.sha256"
   exit 1
 fi
 

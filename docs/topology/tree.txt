@@ -1,6 +1,6 @@
 .
 ├── SECURITY.md
-├── bluedoor_control_plane
+├── pv1_control_plane
 │   ├── packages
 │   │   └── events
 │   │       └── eventBus.js
@@ -13,8 +13,8 @@
 │   └── migrations
 │       └── 001_ai_jobs.sql
 ├── dist
-│   ├── bluedoor_platform-src.tar.gz
-│   ├── bluedoor_platform-src.tar.gz.sha256
+│   ├── pv1_platform-src.tar.gz
+│   ├── pv1_platform-src.tar.gz.sha256
 │   ├── sbom.cdx.json
 │   └── sbom.cdx.json.sha256
 ├── dump.rdb

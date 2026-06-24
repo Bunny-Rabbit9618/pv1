@@ -49,7 +49,7 @@ app.use(
 const pool = new Pool({
   connectionString:
     process.env.DATABASE_URL ||
-    'postgresql://postgres@127.0.0.1:5432/bluedoor'
+    'postgresql://postgres@127.0.0.1:5432/pv1'
 });
 
 app.get('/health', async (_req, res) => {
@@ -2463,7 +2463,7 @@ app.get(
 
 
 const uploadDir =
-  '/data/data/com.termux/files/home/bluedoor_platform_final/uploads/work-orders';
+  '/data/data/com.termux/files/home/pv1_platform_final/uploads/work-orders';
 
 if(
   !fs.existsSync(

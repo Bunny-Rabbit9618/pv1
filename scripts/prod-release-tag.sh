@@ -18,7 +18,7 @@ pnpm lint
 pnpm test
 pnpm build
 
-git tag -a "$VERSION" -m "BlueDoor platform $VERSION"
+git tag -a "$VERSION" -m "PV1 platform $VERSION"
 git push origin prod
 git push origin "$VERSION"
 

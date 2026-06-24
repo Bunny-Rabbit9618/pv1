@@ -6,7 +6,7 @@ const app = express();
 const db = new pg.Pool({
   connectionString:
     process.env.DATABASE_URL ||
-    'postgresql://postgres@127.0.0.1:5432/bluedoor'
+    'postgresql://postgres@127.0.0.1:5432/pv1'
 });
 
 await db.query(`

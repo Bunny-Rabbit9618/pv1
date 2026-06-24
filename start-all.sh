@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-echo "=== BlueDoor Boot ==="
+echo "=== PV1 Boot ==="
 
 # --- START POSTGRES ---
 echo "[1/5] Postgres..."
@@ -14,7 +14,7 @@ redis-server --daemonize yes >/dev/null 2>&1
 echo "[3/5] Cleaning old services..."
 pkill node >/dev/null 2>&1
 
-BASE=~/bluedoor_platform_final/bluedoor_control_plane/services/control-plane
+BASE=~/pv1_platform_final/pv1_control_plane/services/control-plane
 
 # --- START SERVICES (ORDER MATTERS FOR VISIBILITY) ---
 echo "[4/5] Starting services..."

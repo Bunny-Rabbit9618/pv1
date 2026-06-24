@@ -1,6 +1,6 @@
 import express from 'express';
-import { subscribe } from 'file:///data/data/com.termux/files/home/bluedoor_platform_final/packages/events/eventBus.js';
-import { pool } from 'file:///data/data/com.termux/files/home/bluedoor_platform_final/packages/db/index.js';
+import { subscribe } from 'file:///data/data/com.termux/files/home/pv1_platform_final/packages/events/eventBus.js';
+import { pool } from 'file:///data/data/com.termux/files/home/pv1_platform_final/packages/db/index.js';
 
 const app = express();
 app.use(express.json());

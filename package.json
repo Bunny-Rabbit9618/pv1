@@ -1,5 +1,5 @@
 {
-  "name": "bluedoor_platform_final",
+  "name": "pv1_platform_final",
   "private": true,
   "scripts": {
     "lint": "echo \"add lint\"",
@@ -20,14 +20,14 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bluedoorsolutionshqtx-cmd/bluedoor_platform_final.git"
+    "url": "git+https://github.com/pv1solutionshqtx-cmd/pv1_platform_final.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "bugs": {
-    "url": "https://github.com/bluedoorsolutionshqtx-cmd/bluedoor_platform_final/issues"
+    "url": "https://github.com/pv1solutionshqtx-cmd/pv1_platform_final/issues"
   },
-  "homepage": "https://github.com/bluedoorsolutionshqtx-cmd/bluedoor_platform_final#readme"
+  "homepage": "https://github.com/pv1solutionshqtx-cmd/pv1_platform_final#readme"
 }

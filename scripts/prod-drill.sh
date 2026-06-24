@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-: "${PROD_API_BASE:=https://api.bluedoorsolutionsllc.com}"
-: "${PROD_CLIENT_BASE:=https://client.bluedoorsolutionsllc.com}"
+: "${PROD_API_BASE:=https://api.pv1solutionsllc.com}"
+: "${PROD_CLIENT_BASE:=https://client.pv1solutionsllc.com}"
 
 echo "[prod-drill] Starting production health drill"
 

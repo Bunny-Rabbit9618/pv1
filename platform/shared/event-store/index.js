@@ -1,4 +1,4 @@
-import { pool } from 'file:///data/data/com.termux/files/home/bluedoor_platform_final/packages/db/index.js';
+import { pool } from 'file:///data/data/com.termux/files/home/pv1_platform_final/packages/db/index.js';
 
 export async function logEvent(eventId, channel, payload) {
   await pool.query(

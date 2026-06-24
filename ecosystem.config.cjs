@@ -13,7 +13,7 @@ module.exports = {
           'redis://127.0.0.1:6379',
 
         DATABASE_URL:
-          'postgresql://u0_a473@127.0.0.1:5432/bluedoor'
+          'postgresql://u0_a473@127.0.0.1:5432/pv1'
       }
     },
 
@@ -55,7 +55,7 @@ module.exports = {
           'redis://127.0.0.1:6379',
 
         DATABASE_URL:
-          'postgresql://u0_a473@127.0.0.1:5432/bluedoor'
+          'postgresql://u0_a473@127.0.0.1:5432/pv1'
       }
     },
 
@@ -71,7 +71,7 @@ module.exports = {
           'redis://127.0.0.1:6379',
 
         DATABASE_URL:
-          'postgresql://u0_a473@127.0.0.1:5432/bluedoor'
+          'postgresql://u0_a473@127.0.0.1:5432/pv1'
       }
     },
 
@@ -87,7 +87,7 @@ module.exports = {
           'redis://127.0.0.1:6379',
 
         DATABASE_URL:
-          'postgresql://u0_a473@127.0.0.1:5432/bluedoor'
+          'postgresql://u0_a473@127.0.0.1:5432/pv1'
       }
     },
 

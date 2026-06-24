@@ -4,7 +4,7 @@ import pg from 'pg';
 import {
   subscribe,
   publish
-} from 'file:///data/data/com.termux/files/home/bluedoor_platform_final/platform/shared/events/eventBus.js';
+} from 'file:///data/data/com.termux/files/home/pv1_platform_final/platform/shared/events/eventBus.js';
 
 const app = express();
 
@@ -13,7 +13,7 @@ app.use(express.json());
 const db = new pg.Pool({
   connectionString:
     process.env.DATABASE_URL ||
-    'postgresql://postgres@127.0.0.1:5432/bluedoor'
+    'postgresql://postgres@127.0.0.1:5432/pv1'
 });
 
 db.query('SELECT NOW()')
