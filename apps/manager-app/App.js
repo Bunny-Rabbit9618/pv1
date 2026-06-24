@@ -158,7 +158,7 @@ function IncidentStack(){
 
 }
 
-\nfunction OperationsStack(){
+function OperationsStack(){
 
   return(
 
